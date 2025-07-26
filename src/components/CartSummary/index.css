@@ -70,3 +70,15 @@
     display: none;
   }
 }
+
+.popup-content {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+}
